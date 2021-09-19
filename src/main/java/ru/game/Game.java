@@ -16,7 +16,7 @@ public class Game {
         magDD.Pers();
         gan.Pers();
         heal.Pers();
-        System.out.println("Впереди три пути: 1 - дальше в лес, 2 - в пещеру, 3 - назад в деревню. Выбирай!");
+        System.out.println("Впереди три пути: 1 - в лес, 2 - в пещеру, 3 - в деревню. Выбирай!");
         int road = scan.nextInt();
         if (road == 1) {
             monster.name = "Леший";
@@ -51,18 +51,7 @@ public class Game {
             gan.upLvl();
             heal.upLvl();
         } else {
-            System.out.println("Вы вернулись обратно в деревню ни с чем! До завтра!!!");
+            System.out.println("Вы вернулись обратно в деревню ни с чем!");
         }
-
-
-
-
-    }
-    public static void attacked() {
-//        System.out.println("Выбери класс своего персонажа: ");
-        System.out.println("Набери 1, чтобы получить информацию о Танке");
-        System.out.println("Набери 2, чтобы получить информацию о Маге");
-        System.out.println("Набери 3, чтобы получить информацию о РДД (физ)");
-        System.out.println("Набери 4, чтобы получить информацию о Присте");
     }
 }
