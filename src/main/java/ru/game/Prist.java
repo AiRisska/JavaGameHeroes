@@ -11,7 +11,7 @@ public class Prist extends Avatar {
 
     void attack() {
         skill = "Масс-хил";
-        System.out.println(proff +" использует умение "+skill);
+        attack(skill);
         attr++;
     }
 }

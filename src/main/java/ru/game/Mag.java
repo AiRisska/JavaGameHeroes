@@ -11,7 +11,7 @@ public class Mag extends Avatar {
 
     void attack() {
         skill = "Метеорит!";
-        System.out.println(proff +" использует умение "+skill);
+        attack(skill);
         attr++;
     }
 }

@@ -14,6 +14,11 @@ public class Avatar {
         System.out.println("Моя основная характеристика: "+attribute+", значение = "+attr);
     }
 
+    Avatar attack(String skills) {
+        System.out.println(proff +" использует умение "+skills);
+        return this;
+    }
+
     void upLvl() {
         System.out.println(proff+". Уровень стал "+level+". Характеристика "+attribute+" теперь равна "+attr);
     }

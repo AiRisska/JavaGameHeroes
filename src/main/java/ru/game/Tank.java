@@ -11,7 +11,7 @@ public class Tank extends Avatar {
 
     void attack() {
         skill = "Агр!";
-        System.out.println(proff +" использует умение "+skill);
+        attack(skill);
         attr++;
     }
 

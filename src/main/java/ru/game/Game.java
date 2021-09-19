@@ -28,6 +28,7 @@ public class Game {
             heal.attack();
             monster.dearth();
             System.out.println("Вы победили монстра! Уровень группы вырос на 1 и поднялись характеристики персонажей:");
+            Avatar.level = 2;
             tank.upLvl();
             magDD.upLvl();
             gan.upLvl();

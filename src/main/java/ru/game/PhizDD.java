@@ -11,7 +11,7 @@ public class PhizDD extends Avatar {
 
     void attack() {
         skill = "Удар!";
-        System.out.println(proff +" использует умение "+skill);
+        attack(skill);
         attr++;
     }
 }
